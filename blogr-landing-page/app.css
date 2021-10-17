@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap');
+body {
+    background-color: #fafafa;
+}
+
+header {
+    height: 30rem;
+    background-image: url("./images/bg-pattern-intro.svg");
+    background-position: center;
+    background-color: #fe846d;
+    color: white;
+    border-radius: 0 0 0 7rem;
+}
+
+.navbar {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-family: 'Overpass', sans-serif;
+}
+
+.nav-item {
+    margin-left: 2vw;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.btn-white {
+    background-color: white;
+    color: #fe575e;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.btn-learn {
+    color: white;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+#signup-btn {
+    padding: 0.5rem 2rem;
+}
+
+.white-section-h2 {
+    color: #143550;
+    padding-top: 8rem;
+}
+
+.img-div {
+    background-image: url("images/illustration-editor-desktop.svg");
+    max-width: 100%;
+    height: 100%;
+    background-size: contain;
+}
+
+#sec-2 {
+    background-image: url("./images/bg-pattern-circles.svg");
+    background-position: center;
+    background-color: #3a3b59;
+    color: white;
+    border-radius: 0 70px;
+    margin-top: 60px;
+}
+
+.p1 {
+    font-size: 0.9rem;
+    color: #898b8f;
+}
+
+#p2 {
+    font-size: 0.9rem;
+    color: #8c8ca2;
+}
+
+#img2 {
+    position: absolute;
+    top: -120px;
+    height: 520px;
+}
+
+#sec-3 {
+    margin-top: 150px;
+}
+
+footer {
+    padding-top: 2rem;
+    background-color: #24242c;
+    color: white;
+    border-radius: 0 70px 0 0;
+}
+
+#footer-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+}
+
+.footer-h {
+    font-weight: 500;
+}
+
+.footer-ul {
+    margin-top: 1.5rem;
+    ;
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-ul li {
+    padding-bottom: 0.8rem;
+}
+
+footer a, footer a:hover {
+    color: #92929a;
+}
+
+#footer-brand {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .img-div {
+        margin-top: 3rem;
+        background-position: center;
+        height: 300px;
+        background-repeat: no-repeat;
+    }
+    #sec-2-text-div {
+        margin-top: 90px;
+    }
+    #sec-2 {
+        margin-top: 100px;
+        background-position: center;
+    }
+    #img2 {
+        position: absolute;
+        top: -200px;
+        height: 300px;
+    }
+    #sec-3 {
+        margin-top: 0;
+    }
+    footer {
+        text-align: center;
+    }
+    .white-section-h2 {
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+    #img2 {
+        position: absolute;
+        top: -30px;
+        left: -20px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .img-div {
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 364px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
